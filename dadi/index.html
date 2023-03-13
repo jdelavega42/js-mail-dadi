@@ -11,6 +11,25 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="container w-50 mx-auto text-center py-5">
+        <button class="btn btn-danger my-3" id="throw">Clicca per lanciare il tuo dado</button>
+        <div class="card">
+            <div class="row card-body">
+                <div class="col">
+                    <div class="card-subtitle fs-5">Tuo numero</div>
+                    <p class="fs-1" id="user-number">0</p>
+                </div>
+                <div class="col">
+                    <div class="card-subtitle fs-5">Numero Bot</div>
+                    <p class="fs-1" id="bot-number">0</p>
+                </div>
+            </div>
+            <div class="card-header d-none">
+                <div class="card-title fs-3" id="result"></div>
+            </div>
+        </div>
+
+    </div>
     
     <!-- custom js -->
     <script src="js/script.js"></script>
