@@ -10,18 +10,19 @@
    <!-- custom style-->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="bg-dark">
     <div class="container w-50 mx-auto text-center py-5">
         <button class="btn btn-primary my-3" id="throw">Clicca per lanciare il tuo dado</button>
+        <button class="btn btn-secondary d-none my-3" id="reset">Reset</button>
         <div class="card">
             <div class="row card-body">
                 <div class="col">
                     <div class="card-subtitle fs-5">Tuo numero</div>
-                    <p class="fs-1" id="user-number">0</p>
+                    <p class="dice" id="user-number"></p>
                 </div>
                 <div class="col">
                     <div class="card-subtitle fs-5">Numero Bot</div>
-                    <p class="fs-1" id="bot-number">0</p>
+                    <p class="dice" id="bot-number"></p>
                 </div>
             </div>
             <div class="card-header d-none">
